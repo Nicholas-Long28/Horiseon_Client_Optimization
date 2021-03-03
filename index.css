@@ -5,25 +5,36 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: white;
 }
+/* Added background and font styling to the nav bar.*/
 
-.header {
-    padding: 20px;
+.headernav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #2589bd;
+    color: white;
+    overflow: hidden;
+}
+/*set a flex container to align all elements within the nav bar*/
+.headernav {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    padding: 5px;
+    font-size: 19px;
+    align-items: center;
 }
 
-.header h1 {
-    display: inline-block;
+/*Set a flex element to align the h1 with the header elements.*/
+.headernav h1 {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 48px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    color: #d9dcd6;    
 }
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
 .header div {
     padding-top: 15px;
     margin-right: 20px;
