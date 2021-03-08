@@ -54,7 +54,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*Ensured the page loaded correctly*/
+/*Ensured the page loaded correctly and grouped the main elements together*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -110,7 +110,7 @@ p {
     max-height: 200px;
 }
 
-/*Condensed redundant code to read more fluid*/
+/*Condensed redundant code to read more fluid and replaced a div with an aside element*/
 .benefits {
     margin-right: 20px;
     margin-top: 25px;
